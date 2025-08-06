@@ -1,2 +1,2 @@
 # wp_blog
-Wordpress plugin for IT blog
+Wordpress theme for IT blog

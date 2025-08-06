@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "custom": true,
+      "palette": []
+    },
+    "typography": {
+      "customFontSize": true,
+      "fontSizes": []
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#000000"
+    },
+    "typography": {
+      "fontFamily": "Arial, sans-serif"
+    }
+  }
+}

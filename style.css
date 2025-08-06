@@ -1,0 +1,19 @@
+/*
+Theme Name: DevNen Blog
+Theme URI: https://blog.devnen.com/
+Author: Nenad Jovanović
+Author URI: https://devnen.com/
+Description: WP theme for IT. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: devnenblog
+Tags: blog, custom-background, custom-logo, custom-menu
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}

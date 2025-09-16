@@ -1,7 +1,7 @@
 <?php
 /**
- * Template Name: Devnenblog Page
- * Description: page
+ * Template Name: Devnenblog Front-Page
+ * Description: Front page
  *
  * @package Devnenblog
  */
@@ -14,5 +14,6 @@ get_header(); ?>
         <?php get_template_part('includes/section', 'content'); ?>
     </div>
 </section>
+
 
 <?php get_footer(); ?>

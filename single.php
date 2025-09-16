@@ -6,15 +6,21 @@
  * @package Devnenblog
  */
 
-get_header();
+get_header(); ?>
 
-if ( have_posts() ) :
-    while ( have_posts() ) : the_post();
-        the_title( '<h1>', '</h1>' );
-        the_content();
-    endwhile;
-else :
-    echo '<p>Post nije pronađen.</p>';
-endif;
+<section class="page-wrap">
+    <div class="container">
+        <?php
+            if ( have_posts() ) :
+                while ( have_posts() ) : the_post();
+                    the_title( '<h1>', '</h1>' );
+                    the_content();
+                endwhile;
+            else :
+                echo '<p>Post nije pronađen.</p>';
+            endif;
+        ?>
+    </div>
+</section>
 
-get_footer();
+<?php get_footer(); ?>
